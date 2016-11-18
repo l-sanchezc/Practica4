@@ -21,6 +21,15 @@
 		59B2803D18192CD900B4F053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B2801F18192CD900B4F053 /* UIKit.framework */; };
 		59B2804518192CD900B4F053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B2804318192CD900B4F053 /* InfoPlist.strings */; };
 		59B2804718192CD900B4F053 /* Practica4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B2804618192CD900B4F053 /* Practica4Tests.m */; };
+		59B28052181935ED00B4F053 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B28051181935ED00B4F053 /* RecipeDetailViewController.m */; };
+		59B2805818193DC300B4F053 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B2805718193DC300B4F053 /* AboutViewController.m */; };
+		59B2805F1819781500B4F053 /* buffet_low.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59B2805E1819781500B4F053 /* buffet_low.jpg */; };
+		59CA091E18197E6C00C09419 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CA091D18197E6C00C09419 /* launch.png */; };
+		59CA092018197EB400C09419 /* launch 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CA091F18197EB400C09419 /* launch 2.png */; };
+		59CA092218197F5D00C09419 /* housebirito-cocinero.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CA092118197F5D00C09419 /* housebirito-cocinero.png */; };
+		59CA09241819801600C09419 /* housebirito-cocinero 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CA09231819801600C09419 /* housebirito-cocinero 2.png */; };
+		59CA09261819803300C09419 /* housebirito-cocinero 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CA09251819803300C09419 /* housebirito-cocinero 3.png */; };
+		59CA0928181A66CA00C09419 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 59CA0927181A66CA00C09419 /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,17 @@
 		59B2804218192CD900B4F053 /* Practica4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practica4Tests-Info.plist"; sourceTree = "<group>"; };
 		59B2804418192CD900B4F053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59B2804618192CD900B4F053 /* Practica4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practica4Tests.m; sourceTree = "<group>"; };
+		59B28050181935ED00B4F053 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		59B28051181935ED00B4F053 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		59B2805618193DC300B4F053 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		59B2805718193DC300B4F053 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		59B2805E1819781500B4F053 /* buffet_low.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buffet_low.jpg; sourceTree = "<group>"; };
+		59CA091D18197E6C00C09419 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		59CA091F18197EB400C09419 /* launch 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch 2.png"; sourceTree = "<group>"; };
+		59CA092118197F5D00C09419 /* housebirito-cocinero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "housebirito-cocinero.png"; path = "about/housebirito-cocinero.png"; sourceTree = "<group>"; };
+		59CA09231819801600C09419 /* housebirito-cocinero 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "housebirito-cocinero 2.png"; sourceTree = "<group>"; };
+		59CA09251819803300C09419 /* housebirito-cocinero 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "housebirito-cocinero 3.png"; sourceTree = "<group>"; };
+		59CA0927181A66CA00C09419 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +137,12 @@
 				59B2802D18192CD900B4F053 /* Main.storyboard */,
 				59B2803018192CD900B4F053 /* P4ViewController.h */,
 				59B2803118192CD900B4F053 /* P4ViewController.m */,
+				59B2805618193DC300B4F053 /* AboutViewController.h */,
+				59B2805718193DC300B4F053 /* AboutViewController.m */,
+				59B28050181935ED00B4F053 /* RecipeDetailViewController.h */,
+				59B28051181935ED00B4F053 /* RecipeDetailViewController.m */,
 				59B2803318192CD900B4F053 /* Images.xcassets */,
+				59B2805918193F3900B4F053 /* about */,
 				59B2802218192CD900B4F053 /* Supporting Files */,
 			);
 			path = Practica4;
@@ -126,6 +151,11 @@
 		59B2802218192CD900B4F053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59CA09251819803300C09419 /* housebirito-cocinero 3.png */,
+				59CA09231819801600C09419 /* housebirito-cocinero 2.png */,
+				59CA092118197F5D00C09419 /* housebirito-cocinero.png */,
+				59CA091F18197EB400C09419 /* launch 2.png */,
+				59CA091D18197E6C00C09419 /* launch.png */,
 				59B2802318192CD900B4F053 /* Practica4-Info.plist */,
 				59B2802418192CD900B4F053 /* InfoPlist.strings */,
 				59B2802718192CD900B4F053 /* main.m */,
@@ -150,6 +180,15 @@
 				59B2804318192CD900B4F053 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59B2805918193F3900B4F053 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				59CA0927181A66CA00C09419 /* about.html */,
+				59B2805E1819781500B4F053 /* buffet_low.jpg */,
+			);
+			path = about;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +268,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CA091E18197E6C00C09419 /* launch.png in Resources */,
+				59CA09261819803300C09419 /* housebirito-cocinero 3.png in Resources */,
 				59B2803418192CD900B4F053 /* Images.xcassets in Resources */,
+				59CA092018197EB400C09419 /* launch 2.png in Resources */,
+				59CA09241819801600C09419 /* housebirito-cocinero 2.png in Resources */,
 				59B2802618192CD900B4F053 /* InfoPlist.strings in Resources */,
+				59B2805F1819781500B4F053 /* buffet_low.jpg in Resources */,
 				59B2802F18192CD900B4F053 /* Main.storyboard in Resources */,
+				59CA0928181A66CA00C09419 /* about.html in Resources */,
+				59CA092218197F5D00C09419 /* housebirito-cocinero.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B2802C18192CD900B4F053 /* P4AppDelegate.m in Sources */,
+				59B2805818193DC300B4F053 /* AboutViewController.m in Sources */,
+				59B28052181935ED00B4F053 /* RecipeDetailViewController.m in Sources */,
 				59B2803218192CD900B4F053 /* P4ViewController.m in Sources */,
 				59B2802818192CD900B4F053 /* main.m in Sources */,
 			);
@@ -461,6 +509,7 @@
 				59B2804C18192CD900B4F053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59B2804D18192CD900B4F053 /* Build configuration list for PBXNativeTarget "Practica4Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +518,7 @@
 				59B2804F18192CD900B4F053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

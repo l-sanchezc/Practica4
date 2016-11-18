@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface P4ViewController : UIViewController
+@interface P4ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end
